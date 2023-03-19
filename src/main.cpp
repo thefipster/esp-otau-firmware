@@ -2,13 +2,13 @@
 
 void setup()
 {
-  wifi.Connect();
-  otau.Begin();
-  AsyncElegantOTA.begin(otau.server);
+  Wifi.Connect();
+  Otau.Begin();
+  AsyncElegantOTA.begin(Otau.server);
 }
 
 void loop()
 {
-  if (!wifi.Loop())
+  if (!Wifi.Loop())
     ESP.restart();
 }

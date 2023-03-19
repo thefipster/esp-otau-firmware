@@ -7,8 +7,8 @@
 #include <OtauHandler.h>
 #include <WifiHandler.h>
 
-OtauHandler otau;
-WifiHandler wifi(WIFI_SSID, WIFI_PASS);
+OtauHandler Otau;
+WifiHandler Wifi(WIFI_SSID, WIFI_PASS);
 
 void setup();
 void loop();
